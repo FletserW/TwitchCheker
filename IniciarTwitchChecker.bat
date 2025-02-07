@@ -1,4 +1,4 @@
 @echo off
-cd /d "D:\Program Files\Projetos\LiveSequenc"
-python LiveSequence.py
+cd /d "D:\diretorio\do\script"
+python TwitchChecker.py
 pause
