@@ -5,8 +5,8 @@ import time
 SERVER = "irc.chat.twitch.tv"
 PORT = 6667  # Porta padrão do IRC
 TOKEN = "oauth:wz4lzt6dbqhd6cfbzdekzr0clabayt"  # ⚠️ Seu token OAuth (inclua 'oauth:' no começo)
-USERNAME = "FletserW"  # ⚠️ Seu nome de usuário na Twitch
-CHANNEL = "#trixxiemix"  # ⚠️ Nome do canal (comece com #, ex: "#FletserW")
+USERNAME = "username"  # ⚠️ Seu nome de usuário na Twitch
+CHANNEL = "#streamer"  # ⚠️ Nome do canal (comece com #, ex: "#FletserW")
 
 # Conectar ao servidor IRC da Twitch
 sock = socket.socket()
@@ -19,7 +19,7 @@ sock.send(f"JOIN {CHANNEL}\r\n".encode("utf-8"))
 time.sleep(2)
 
 # Enviar mensagem no chat
-message = "oiii  trixxi5Oila "
+message = "oi, cheguei 😀"
 sock.send(f"PRIVMSG {CHANNEL} :{message}\r\n".encode("utf-8"))
 print(f"✅ Mensagem enviada no chat de {CHANNEL}: {message}")
 
