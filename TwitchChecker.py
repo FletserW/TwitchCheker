@@ -35,7 +35,7 @@ log_message("Iniciando o Twitch Checker...")
 # Configurações
 CLIENT_ID = "wj8h3e5u68p8fzmmabekecrv8uecws"
 CLIENT_SECRET = "54yzyjxjgvv04az3sv0p6hujiwl8b7"
-CHANNEL_NAME = "trixxiemix"
+CHANNEL_NAME = "nome_streamer"
 CHECK_INTERVAL = 600  # Tempo em segundos entre verificações
 CHAT_SCRIPT = "twitch_chat.py"  # Nome do script do chat
 
